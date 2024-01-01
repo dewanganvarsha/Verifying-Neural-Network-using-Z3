@@ -13,3 +13,14 @@ In main (at the end of NeuralNet.py file): choose the model to run
     - to add a new model:
         - add a function to train the model
         - add constraint in AddConstraint function
+
+The activation functions are approximated using piecewise linear interpolation computed in LinApprox.py:
+![activation_function_image](./Images/activationFunctions.png)
+The exponential function is used for Softmax activation function.
+
+The result for constraint on Setosa shown by box on Iris dataset which produces unsat is:
+![activation_function_image](./Images/Constraint_Unsat.png)
+This is due to the inclusion of non-Setosa in the boxes. This constraint is commented in the NeuralNet.py file.
+
+The modified constraint to get sat result is:
+![activation_function_image](./Images/Constraint_Sat.png)
