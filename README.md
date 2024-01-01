@@ -1,5 +1,5 @@
 # Verifying-Neural-Network-using-Z3
-In this project, I implemented a Neural Network using PyTorch and specified the properties of it in the language understandable by Z3. The project focuses on constraint-based verification, handling non-linear activation functions, translating the neural network model into Z3, and verifying the properties using Z3.
+In this project, I implemented a Neural Network using PyTorch and specified the properties of it in the language understandable by Z3. The project focuses on constraint-based verification, handling non-linear activation functions, translating the neural network model into Z3, and verifying the properties using Z3. I also demonstrate the extension for Keras Tensorflow Neural Network by using an AND gate and Iris dataset.
 
 The class **NeuralNetSolver** is responsible for converting **Neural Network** to **z3**.
 This includes two types of Neural Networks: torch.nn and keras tensorflow
